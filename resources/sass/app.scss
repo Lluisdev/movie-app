@@ -1,0 +1,72 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.title-section {
+    background-color: black;
+    color: white;
+    padding: 3px 0;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-section {
+    max-height: 200px;
+    text-align: center;
+    overflow: scroll;
+    display: block;
+    //white-space: nowrap;
+    text-overflow: hidden;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.border {
+    padding: 2%;
+    border-radius: 2%;
+    background-color: lightgray;
+}
+
+.additional-info-section {
+    //position: absolute;
+    bottom: 0;
+    text-align: justify;
+    font-size: 2ch;
+}
+
+.disney-plus {
+    background-color: #393e8f;
+    color: #ffffff;
+    text-align: center;
+}
+
+.netflix {
+    background-color: #e50914;
+    color: #0a0a0a;
+    text-align: center;
+}
+
+.amazon-prime-video {
+    background-color: #00a8e1;
+    color: #ffffff;
+    text-align: center;
+}
+
+.not-available {
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+
+.apple-itunes {
+    background-color: #d948dd;
+    color: black;
+    text-align: center;
+}
